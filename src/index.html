@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Age Recommended Weight</h1>
+    <form>
+      <div>
+        <label for="name">Name:</label>
+        <input id="name" 
+        type="text" 
+        name="Name" 
+        placeholder="Enter the name" />
+        <br />
+      </div>
+
+      <div>
+        <label for="age">Age:</label>
+        <input type="text"
+          id="age" 
+          name="Age" 
+          placeholder="Enter the age" />
+        <br />
+      </div>
+
+      <div>
+        <label for="weight">Weight:</label>
+        <input
+          type="text"
+          id="weight"
+          name="Weight"
+          placeholder="Enter the weight"
+        />
+        <br />
+      </div>
+
+      <button type="button" onclick="fetch()" id="submit">Submit</button>
+    </form>
+    <p id="answer">The weight should be:</p>
+  </body>
+</html>
