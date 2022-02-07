@@ -45,8 +45,11 @@ function calculate(a, w) {
       result = "your weight is perfect.";
     }
   }
+  else{
+      result= "No record found for age"
+  }
 }
 function display(a) {
-  let res = "Hello " + n + " ! " + result + " " + a;
+  let res = "Hello " + n + " ! " + result + " " + a + ".";
   document.getElementById("answer").innerHTML = res;
 }
